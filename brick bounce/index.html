@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<link rel="stylesheet" href="styles.css" />
+		<meta charset="UTF-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<meta http-equiv="X-UA-Compatible" content="ie=edge" />
+		<title>Brick Bounce</title>
+	</head>
+	<body>
+		<div id="gameContainer" width="480px" height="340px">
+			<canvas width="480px" height="340px"
+				><p id="deadToMe">
+					Html 5 is not supported on your browser,<br />
+					or Javascript is disabled for this website.<br /><br />Please fix to
+					play.
+				</p></canvas
+			>
+			<div id="resizeBar" title="Resize Game"></div>
+		</div>
+		<button id="pause">pause</button>
+		<button class="difficulty" id="0">easy</button>
+		<button class="difficulty" id="1">medium</button>
+		<button class="difficulty" id="2">hard</button>
+		<button id="reset">reset</button>
+		<script src="game.js"></script>
+		<script src="func.js"></script>
+		<script src="menu.js"></script>
+	</body>
+</html>
